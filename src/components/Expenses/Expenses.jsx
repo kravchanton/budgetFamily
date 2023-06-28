@@ -63,7 +63,7 @@ export const Expenses = () => {
           initialValues={{
             accountId: accounts[0]?.id,
             amount: "",
-            categoryId: expenseCategories ? expenseCategories[0].id : "",
+            categoryId: expenseCategories ? expenseCategories[0]?.id : "",
             createdOn: newDate,
             description: "",
             id: 0,
